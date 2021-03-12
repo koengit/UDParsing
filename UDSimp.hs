@@ -97,6 +97,7 @@ main =
                                ++ " | "
                                ++ score cT'
                                 )
+                       
                        {- if reverse (take 6 (reverse (score cL'))) /= "100.0%"
                          then do writeFile "corpus-L2" $ unlines $
                                    [ showSent s | s <- cL' ]
